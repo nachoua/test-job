@@ -1,0 +1,652 @@
+*{
+    /* font-family: 'Patrick Hand', cursive; */
+   /* color: #012f63; */
+}
+body {
+    background-color: #f9fafa !important;
+}
+
+
+/* start section head  */
+
+
+
+.btn-outline-success {
+    color: white !important;
+    background-color: #5f606c !important;
+    border-color: white !important;
+}
+
+.form-control {
+    padding: 0.175rem 10.75rem !important;
+}
+
+.mrg {
+    margin-left: 100px;
+}
+
+.me-2 {
+    padding: 0.175rem 16.75rem !important;
+}
+.mrgi {
+    padding: 0px 10px;
+}
+
+.first {
+    background-image: url(img/img1.jpg);
+    height: 370px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+    border-radius: 20px !important;
+}
+
+
+
+
+
+
+
+.title {
+    color: #0096b3;
+    font-size: 88px;
+    font: normal normal bold 66px/1.4em poppins-semibold, poppins, sans-serif;
+    text-align: center;
+    padding-top: 35px;
+}
+
+button.btn {
+    background-color: #fff !important;
+    color: #012f63 !important;
+    border-radius: 4px !important;
+    font-size: 14px;
+    font-size: 14px !important;
+    font-weight: bold;
+    transition: 0.2s;
+    text-align: center;
+    padding: 15px 30px;
+    justify-content: center;
+    text-align: center
+}
+
+.btn:hover {
+    background: #0096b3 !important;
+    color: #fff !important;
+}
+
+.blockd {
+    display: block;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.flexd {
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.title-head{
+    color: #fff;
+}
+/* end section head  */
+
+
+
+
+
+/* start section icon */
+.icon {
+    display: flex;
+    font-size: 280px;
+    /* justify-content: space-between; */
+    padding: 50px;
+    margin: auto;
+    justify-content: center;
+}
+
+.icon-mrg {
+    margin: 0px 20px;
+}
+
+
+svg.icon-transition:hover{
+    transition: 0.5s;
+    left: 0;
+    width: 56px;
+    height: 56px;
+  
+
+}
+/* end section icon */
+
+
+
+
+
+
+/* start section about me */
+
+
+.section-aboutme {
+    margin: 50px;
+    padding: 50px;
+    justify-content: space-between;
+}
+
+.bio {
+    justify-items: center;
+}
+
+.text-aboutme {
+    padding-right: 50px;
+}
+
+.title-aboutme {
+    padding-bottom: 30px;
+    color: #0096b3;
+}
+
+.divider-h4 {
+    color: #0096b3;
+}
+.disp {
+    margin-bottom: 39px;
+}
+
+
+
+/* end section about me */
+
+
+
+
+
+
+/*  start professional-skills*/
+
+
+
+.professional-skills {
+    margin: 50px;
+    padding: 0px !important;
+}
+
+.professional {
+    background-color: white !important;
+    text-align: center;
+    padding: 0px 0px 50px 50px!important;
+    transition: .3s ease;
+}
+
+.skills {
+    background-color: white !important;
+    text-align: center;
+    padding: 0px 0px 50px 50px !important;
+    transition: .3s ease;
+}
+.progress-linee {
+    width: 360px;
+    height: 10px;
+    background-color: #adadb0;
+    border-radius: 8px;
+    margin: auto;
+    justify-items: center;
+    overflow: hidden;
+    position: absolute;
+}
+
+.progress-fill.bootstrap {
+    width: 90%;
+    background-color: #0096b3;
+    height: 100%;
+}
+
+.progress-fill.html {
+    width: 80%;
+    background-color: #0096b3;
+    height: 100%;
+}
+
+.progress-fill.css {
+    width: 70%;
+    background-color: #0096b3;
+    height: 100%;
+}
+
+.progress-fill.javascript {
+    width: 50%;
+    background-color: #0096b3;
+    height: 100%;
+}
+
+.progress-fill.wordpress {
+    width: 100%;
+    background-color: #0096b3;
+    height: 100%;
+}
+
+.progress-fill.php {
+    width: 80%;
+    background-color: #0096b3;
+    height: 100%;
+}
+
+.progress-fill.laravel {
+    width: 70%;
+    background-color: #0096b3;
+    height: 100%;
+}
+
+.progress-fill.python {
+    width: 60%;
+    background-color: #0096b3;
+    height: 100%;
+}
+
+.progress-content {
+    height: 50px;
+    width: 130px;
+    right: -218px;
+    top: -8px;
+    background-color: #0096b3;
+    color: #101123;
+    padding: 2px 15px;
+    position: relative;
+    border-radius: 5px 5px 0px 5px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+span.text-pro {
+    font-size: 17px;
+    font-weight: 500;
+    left: 0px;
+    margin-left: -383px;
+}
+
+.progress-infor {
+    padding: 36px 0px 0px;
+}
+.skills:hover{
+    transform: scale(1.03);
+}
+.professional:hover{
+    transform: scale(1.03);
+  
+}
+/* end professional-skills */
+
+
+
+
+
+/* start footer */
+
+footer {
+    background-color: black;
+    height: 720px;
+    width: 100%;
+    background: #101123 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAJCAQAAACP6lQKAAAAY0lEQVR4AY3LRwGDUABEwcUBN+64wBYW0ntPPGAJDV9A6kvvbec+IiGjSgB84TAyEp0RU+AqiPWMiAWOBZEOzG7US+/yy/RQf6HJN029M3tTHnJWPFqRy0fKiJIVK0pGpPpoDwFYJXxZMwJaAAAAAElFTkSuQmCC) repeat-x left top;
+}
+.bg {
+    background-size: 12px 5px;
+}
+
+/* Start form contact */
+
+.form-contact {
+    background-image: url(img/img5.png);
+    height: 480px;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    margin: auto;
+    justify-content: center;
+    box-shadow: #adadb0;
+    border-radius: 8px;
+}
+
+.contact {
+    margin: 50px;
+    text-align: center;
+    height: 250px;
+    width: 100%;
+    background-color: transparent;
+    margin: auto;
+    justify-content: center;
+}
+
+h1.Get {
+    text-align: center;
+    background-color: #fff;
+    color: #0096b3;
+    width: 230px;
+    border-radius: 10px;
+    margin: auto;
+    padding: 11px 0px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.fullname {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.phone-email {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.message textarea {
+    width: 90%;
+    padding: 50px 0px;
+}
+
+.send {
+    text-align: center;
+    background-color: #0096b3;
+    color: #fff;
+    width: 230px;
+    border-radius: 10px;
+    margin: auto;
+    padding: 11px 0px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.send:hover {
+    color: #0096b3;
+    background-color: #fff;
+}
+
+.btn-submit {
+    margin: 30px;
+}
+
+.section-form {
+    padding: 50px 0px 0px 0px;
+}
+
+
+/* start contact info */
+
+.svg-flex {
+    display: flex;
+    justify-content: end;
+}
+
+.contact-svg {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 40px;
+}
+
+svg.svg-phone {
+    margin-right: 30px;
+    width: 40px;
+    height: 40px;
+    margin-top: -15px;
+}
+
+svg.svg-email {
+    margin-right: 30px;
+    width: 40px;
+    height: 40px;
+    margin-top: -19px;
+}
+
+.info-text {
+    font-weight: 400;
+    font-size: 19px;
+    color: #a7a9a9;
+    box-shadow: #adadb0;
+    text-align: center;
+}
+
+.contact-svg {
+    color: #a7a9a9;
+    font-weight: 500;
+    font-size: 26px;
+    box-shadow: #adadb0;
+}
+
+.info-contact {
+    margin: 30px;
+}
+
+
+/* end contact info */
+
+
+
+/* End form contact*/
+
+
+
+/* end footer */
+
+
+
+
+/* start section carousel */
+
+.carousel-style {
+    width: 300px;
+    height: 350px;
+    margin: auto;
+    justify-content: center;
+}
+img.img-crsl{
+    width: 100%;
+    height: 350px;
+}
+
+
+/* end section carousel */
+
+
+
+
+
+/* start section Eduction */
+
+.Eduction{
+    margin: 50px;
+    padding: 0px !important;
+}
+.first-eduction, .second-eduction{
+    background-color: white !important;
+text-align: center;
+padding:0px 50px!important;
+height: 480px;
+
+}
+.eduction-text{
+    color: #0096b3;
+}
+
+.eduction-box{
+    padding: 50px 0px;
+    height: 430px;
+}
+.fa-style{
+    height: 100px;
+    width: 100px;
+    font-size: 80px;
+}
+
+/* end section Eduction */
+
+
+
+
+/* start  section experience accordion  */
+
+.exprience{
+    
+    margin: 50px;
+    padding: 0px !important;
+    
+}
+.accordion-flush .accordion-item .accordion-button {
+    
+    font-weight: 600;
+    color: #012f63;
+    font-size: 26px;
+}
+.accordion-button:not(.collapsed) {
+    background-color: #0096b3;
+}
+
+
+.title-h3{
+    color: #012f63;
+    font-size: 16px;
+    
+
+}
+/* end section experience accordion  */
+
+
+
+
+/* start section title  */
+.title-pro, .title-edu, .title-info{
+    text-align: center;
+   color: #012f63;
+
+
+}
+h1.title-pro, h1.title-edu, h1.title-info{
+    box-shadow:0px 0px 13px #0096b3;
+    margin: 50px;
+}
+.divider-pro, .divider-edu{
+    color:#0096b3;
+    padding: 0px 420px;
+    height: 4px;
+   
+   
+
+}
+/* end section title  */
+/* start section information */
+.font {
+    line-height: 1.5em;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 35px;
+}
+
+
+.style {
+    color: #0096b3;
+}
+
+
+
+.information{ 
+    margin: 50px;
+    padding: 0px !important;
+
+
+} 
+.front-end, .back-end{
+    background-color: white !important;
+    text-align: center;
+    padding: 50px 50px 50px 50px!important;
+    height: 380px;
+    
+}
+.back-end:hover{
+    background-image: url(img/front.jpeg);
+    height: 370px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    color: #fff !important;
+    transition: 2s;
+    
+
+}
+.front-end:hover{
+    background-image: url(img/coding-cover-1.jpg);
+    height: 370px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    color: #fff !important;
+    transition: 2s;
+    
+
+}
+
+
+/* end section information */
+
+
+
+/* start section scroll scroll */
+.scroll{
+    z-index: 99999;
+    position: fixed;
+    right: 0;
+    bottom: 120px;
+    width: 45px;
+    height: 45px;
+    
+    cursor: pointer;
+
+}
+
+/* end section scroll */
+/* start annimation text */
+.annimation{
+    margin: 50px;
+    font-family: 'Patrick Hand', cursive; 
+}
+/* end annimation text */
+
+
+/* start  dropdown */
+button.btn-dropdown {
+    background-color:transparent !important;
+    border-color: transparent;
+    color: rgba(255,255,255,.55) !important;
+    height: 50px;
+    margin-top: -30px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.dropdown-menu{
+    background-color: #0096b3 !important;
+    color: #012f63 !important;
+}
+.dropdown-menu:hover{
+    background-color: rgba(255,255,255,.55) !important;
+}
+
+
+/* end dropdown */
+
+
+
+    
+    
